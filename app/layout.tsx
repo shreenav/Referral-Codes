@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 
+// @ts-ignore - CSS import
+import './globals.css';
+
 export const metadata: Metadata = {
   title: 'Referral Codes - Get Best Discounts',
   description: 'Find the best referral codes for Wakefit, EatClub, and more popular apps. Get discounts with verified referral codes.',
@@ -35,15 +38,6 @@ export default function RootLayout({
             }),
           }}
         />
-        <style>{`
-          @tailwind base;
-          @tailwind components;
-          @tailwind utilities;
-          
-          body {
-            background: linear-gradient(135deg, #f3f4f6 0%, #eff6ff 100%);
-          }
-        `}</style>
       </head>
       <body className="bg-gradient-to-br from-purple-50 to-blue-50">
         {children}
