@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": "wakefit",
+      "name": "Wakefit",
+      "description": "Premium mattresses and sleep solutions",
+      "referralCode": "WAKEFIT2024",
+      "discount": "Flat ₹1,000 off on first purchase",
+      "affiliate": "https://wakefit.co/",
+      "keywords": ["wakefit referral code", "wakefit coupon", "wakefit discount"],
+      "icon": "🛏️"
+    },
+    {
+      "id": "eatclub",
+      "name": "EatClub",
+      "description": "Meal subscriptions and food delivery",
+      "referralCode": "EATCLUB50",
+      "discount": "50% off on first meal",
+      "affiliate": "https://www.eatclub.in/",
+      "keywords": ["eatclub referral code", "eatclub coupon", "eatclub discount"],
+      "icon": "🍽️"
+    }
+  ]
+}
