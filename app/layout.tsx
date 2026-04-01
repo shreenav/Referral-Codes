@@ -35,6 +35,15 @@ export default function RootLayout({
             }),
           }}
         />
+        <style>{`
+          @tailwind base;
+          @tailwind components;
+          @tailwind utilities;
+          
+          body {
+            background: linear-gradient(135deg, #f3f4f6 0%, #eff6ff 100%);
+          }
+        `}</style>
       </head>
       <body className="bg-gradient-to-br from-purple-50 to-blue-50">
         {children}
